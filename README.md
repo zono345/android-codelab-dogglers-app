@@ -14,4 +14,4 @@ https://developer.android.com/codelabs/basic-android-kotlin-training-project-dog
 アプリ画面
 ----  
 ### GIF ###  
-<img src="" width="300">
+<img src="https://user-images.githubusercontent.com/88254716/199110613-dfa05899-6897-4561-b559-49e4c9faf9f2.gif" width="300">
