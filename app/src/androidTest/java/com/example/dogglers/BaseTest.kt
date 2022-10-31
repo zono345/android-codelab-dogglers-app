@@ -19,6 +19,7 @@ import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.graphics.drawable.BitmapDrawable
 import android.graphics.drawable.Drawable
+import android.provider.Settings.Global.getString
 import android.view.View
 import android.widget.ImageView
 import androidx.annotation.DrawableRes
@@ -67,7 +68,7 @@ open class BaseTest {
      * Check the content of the first card
      */
     fun checkFirstPosition() {
-        hasListItemContent("Tzeitel", "7", "sunbathing",
+        hasListItemContent("Tzeitel", "Age: 7", "Hobbies: sunbathing",
             R.drawable.tzeitel)
     }
 
